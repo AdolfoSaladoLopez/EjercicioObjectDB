@@ -2,8 +2,8 @@ package org.example;
 
 public class MenuVisualPrograma {
     public static void menuInicio() {
-        System.out.println("¡Bienvenido al programa CRUD de Desayunos V2!");
-        System.out.println("Esta vez, funciono bajo Hibernate.");
+        System.out.println("¡Bienvenido al programa CRUD de Desayunos V3!");
+        System.out.println("Esta vez, funciono bajo ObjectDB y JPA.");
         System.out.println("Menú de opciones: ");
         System.out.println("\t[1].- Gestión de productos.");
         System.out.println("\t[2].- Gestión de pedidos.");

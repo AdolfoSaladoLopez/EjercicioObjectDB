@@ -1,4 +1,5 @@
 package org.example;
+
 public class Switches {
     public static void switchMenuInicio() {
         Integer eleccion = null;
@@ -37,8 +38,6 @@ public class Switches {
                 Utilidades.limpiarPantalla();
             }
         }
-
-
     }
 
     public static void switchProducto() {
