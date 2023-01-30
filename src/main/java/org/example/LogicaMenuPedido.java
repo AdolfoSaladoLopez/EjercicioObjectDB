@@ -188,7 +188,7 @@ public class LogicaMenuPedido {
                     System.out.println("El producto del pedido será modificado.");
                     pedido.setProducto(producto);
 
-                    if (gestorPedidos.crearPedido(pedido)) {
+                    if (gestorPedidos.actualizarPedido(pedido)) {
                         Utilidades.limpiarPantalla();
                         System.out.println("El producto ha sido modificado con éxito");
                         System.out.println("Ahora el pedido queda de la siguiente manera: ");
